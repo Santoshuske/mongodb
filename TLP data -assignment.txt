@@ -1,0 +1,64 @@
+use santosh
+'switched to db santosh'
+
+db.data.distinct("name")
+[ 'akshay', 'anil', 'anisha', 'manisha', 'priya', 'santosh' ]
+db.data.distinct("mob_no")
+[
+  7019458321,
+  7849581058,
+  7849585610,
+  7869587561,
+  8431607010,
+  8431704456
+]
+
+use santosh
+'switched to db santosh'
+db.insertOne({"name":"akshay","mob_no":7090103309})
+
+db.data.insertOne({"name":"akshay","mob_no":7090103309})
+{ acknowledged: true,
+  insertedId: ObjectId("621dd46b9bad82426a032d33") }
+db.data.updateOne({name:"manisha"},{$set:{place:"banglore"}})
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0 }
+db.data.deleteOne({name:"akshy"},)
+{ acknowledged: true, deletedCount: 0 }
+db.data.find().pretty()
+{ _id: ObjectId("621dd1f594d8efb9c06bf83a"),
+  name: 'akshay',
+  mob_no: 7869587561,
+  place: 'ankali',
+  email: 'aksahy25 @gmail.com' }
+{ _id: ObjectId("621dd1f594d8efb9c06bf83b"),
+  name: 'manisha',
+  mob_no: 7019458321,
+  place: 'banglore',
+  email: 'manu28 @gmail.com' }
+{ _id: ObjectId("621dd1f594d8efb9c06bf83c"),
+  name: 'santosh',
+  mob_no: 8431607010,
+  place: 'kadapur',
+  email: 'santosh28 @gmail.com' }
+{ _id: ObjectId("621dd1f594d8efb9c06bf83d"),
+  name: 'priya',
+  mob_no: 8431704456,
+  place: 'pune',
+  email: 'priya24 @gmail.com' }
+{ _id: ObjectId("621dd1f594d8efb9c06bf83e"),
+  name: 'anisha',
+  mob_no: 7849585610,
+  place: 'sangli',
+  email: 'anisha22 @gmail.com' }
+{ _id: ObjectId("621dd1f594d8efb9c06bf83f"),
+  name: 'anil',
+  mob_no: 7849581058,
+  place: 'kadapur',
+  email: 'anil22 @gmail.com' }
+{ _id: ObjectId("621dd46b9bad82426a032d33"),
+  name: 'akshay',
+  mob_no: 7090103309 }

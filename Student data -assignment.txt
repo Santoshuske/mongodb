@@ -1,0 +1,908 @@
+use students
+'switched to db students'
+db.student.distinct("scores")
+[
+  { score: 0.006247360551892012, type: 'quiz' },
+  { score: 0.04381116979284005, type: 'exam' },
+  { score: 0.2017888852605676, type: 'quiz' },
+  { score: 0.6578497966368002, type: 'quiz' },
+  { score: 0.710026283123355, type: 'quiz' },
+  { score: 0.7300279717432967, type: 'exam' },
+  { score: 0.8007809823509016, type: 'exam' },
+  { score: 0.8760893342659504, type: 'quiz' },
+  { score: 1.182228345865832, type: 'quiz' },
+  { score: 1.25322762871457, type: 'quiz' },
+  { score: 1.463179736705023, type: 'exam' },
+  { score: 1.702113040528119, type: 'quiz' },
+  { score: 1.967495200433389, type: 'quiz' },
+  { score: 2.013473187690951, type: 'exam' },
+  { score: 2.723204808959712, type: 'exam' },
+  { score: 2.987718065941702, type: 'quiz' },
+  { score: 3.064361273717464, type: 'quiz' },
+  { score: 3.311794422000724, type: 'quiz' },
+  { score: 3.544356815821981, type: 'quiz' },
+  { score: 3.677125771067413, type: 'exam' },
+  { score: 3.677565278992456, type: 'exam' },
+  { score: 4.21754550016783, type: 'quiz' },
+  { score: 4.433956226109692, type: 'exam' },
+  { score: 4.784730508547719, type: 'exam' },
+  { score: 5.105728872755167, type: 'exam' },
+  { score: 5.247410853581524, type: 'quiz' },
+  { score: 5.68414255121964, type: 'quiz' },
+  { score: 6.14281392478545, type: 'exam' },
+  { score: 6.301851677835235, type: 'quiz' },
+  { score: 6.867644836612586, type: 'exam' },
+  { score: 6.931507591998553, type: 'quiz' },
+  { score: 7.112266875518214, type: 'exam' },
+  { score: 7.119462599229987, type: 'quiz' },
+  { score: 7.172746439960975, type: 'quiz' },
+  { score: 7.176062073558509, type: 'exam' },
+  { score: 7.307863391324043, type: 'exam' },
+  { score: 7.375913405784407, type: 'quiz' },
+  { score: 7.512188017365151, type: 'quiz' },
+  { score: 7.63846325490759, type: 'quiz' },
+  { score: 7.772386442858281, type: 'exam' },
+  { score: 7.856092232737, type: 'quiz' },
+  { score: 8.125073097960179, type: 'exam' },
+  { score: 8.58858127638702, type: 'exam' },
+  { score: 8.606983261043888, type: 'exam' },
+  { score: 9.613195588726075, type: 'quiz' },
+  { score: 9.660849614328693, type: 'exam' },
+  { score: 9.666623747888858, type: 'exam' },
+  { score: 10.1210778879972, type: 'exam' },
+  { score: 10.2027724707151, type: 'quiz' },
+  { score: 10.23046475899236, type: 'quiz' },
+  { score: 10.37320113489379, type: 'exam' },
+  { score: 10.37827022865908, type: 'quiz' },
+  { score: 10.51344428386458, type: 'quiz' },
+  { score: 10.62413290291121, type: 'exam' },
+  { score: 11.06312649271668, type: 'exam' },
+  { score: 11.45699271327768, type: 'quiz' },
+  { score: 11.75008382913026, type: 'homework' },
+  { score: 11.78273309957772, type: 'quiz' },
+  { score: 11.85715160788611, type: 'quiz' },
+  { score: 11.9075674046519, type: 'exam' },
+  { score: 13.2282768150266, type: 'quiz' },
+  { score: 13.27371116063025, type: 'quiz' },
+  { score: 13.28135073340091, type: 'quiz' },
+  { score: 14.38347127905983, type: 'homework' },
+  { score: 14.56470882270576, type: 'quiz' },
+  { score: 14.63969941335069, type: 'quiz' },
+  { score: 14.98112420690882, type: 'quiz' },
+  { score: 15.2177618920215, type: 'homework' },
+  { score: 15.29147856258362, type: 'exam' },
+  { score: 15.33726210596508, type: 'homework' },
+  { score: 15.6237624645333, type: 'exam' },
+  { score: 15.73156258820246, type: 'exam' },
+  { score: 15.83819664395878, type: 'quiz' },
+  { score: 15.88727528055548, type: 'exam' },
+  { score: 15.89771199662455, type: 'exam' },
+  { score: 15.91636686717778, type: 'exam' },
+  { score: 15.95792143439528, type: 'quiz' },
+  { score: 16.56032169309347, type: 'homework' },
+  { score: 16.89237820123443, type: 'exam' },
+  { score: 17.27725327681863, type: 'exam' },
+  { score: 17.44929152365297, type: 'quiz' },
+  { score: 17.46202326917462, type: 'quiz' },
+  { score: 17.52966217224916, type: 'quiz' },
+  { score: 18.09013691507853, type: 'exam' },
+  { score: 18.91287189072117, type: 'homework' },
+  { score: 18.92628947700149, type: 'homework' },
+  { score: 19.07796402740767, type: 'exam' },
+  { score: 19.17861192576963, type: 'exam' },
+  { score: 19.20300722190935, type: 'quiz' },
+  { score: 19.24312817599633, type: 'homework' },
+  { score: 19.25549934746802, type: 'quiz' },
+  { score: 19.38544736721771, type: 'exam' },
+  { score: 19.5118228072558, type: 'quiz' },
+  { score: 19.96531774799065, type: 'exam' },
+  { score: 20.1442549902647, type: 'exam' },
+  { score: 20.51879961777022, type: 'quiz' },
+  { score: 20.63583040849144, type: 'quiz' },
+  { score: 20.84454374176408, type: 'exam' },
+  { score: 20.85988856264308, type: 'exam' },
+  { score: 21.05570509531929, type: 'exam' },
+  ... 500 more items
+]
+db.student.distinct("score":"exam")
+SyntaxError: Unexpected token, expected "," (1:27)
+
+> 1 | db.student.distinct("score":"exam")
+    |                            ^
+db.student.find(type:exam,score:$gt:90,{"score.$":1})
+SyntaxError: Unexpected token, expected "," (1:20)
+
+> 1 | db.student.find(type:exam,score:$gt:90,{"score.$":1})
+    |                     ^
+db.student.find(type:"exam",score:$gt:90,{"score.$":1})
+SyntaxError: Unexpected token, expected "," (1:20)
+
+> 1 | db.student.find(type:"exam",score:$gt:90,{"score.$":1})
+    |                     ^
+db.student.find("type":"exam","score":$gt:90,{"score.$":1})
+SyntaxError: Unexpected token, expected "," (1:22)
+
+> 1 | db.student.find("type":"exam","score":$gt:90,{"score.$":1})
+    |                       ^
+db.student.aggregate([
+  {
+    $match: {
+      "scores.score": {
+        $gte: 90
+      },
+      "scores.type": "exam"
+    }
+  },
+  {
+    $project: {
+      name: true,
+      list: {
+        $filter: {
+          input: "$scores",
+          as: "list",
+          cond: {
+            $and: [
+              {
+                $gt: [
+                  "$$list.score",
+                  90
+                ]
+              },
+              {
+                $eq: [
+                  "$$list.type",
+                  "exam"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+])
+{ _id: 4, name: 'Zachary Langlais', list: [] }
+{ _id: 7,
+  name: 'Salena Olmos',
+  list: [ { score: 90.37826509157176, type: 'exam' } ] }
+{ _id: 9,
+  name: 'Sanda Ryba',
+  list: [ { score: 97.00509953654694, type: 'exam' } ] }
+{ _id: 10, name: 'Denisha Cast', list: [] }
+{ _id: 13,
+  name: 'Jessika Dagenais',
+  list: [ { score: 90.47179954427436, type: 'exam' } ] }
+{ _id: 17, name: 'Fletcher Mcconnell', list: [] }
+{ _id: 19, name: 'Gisela Levin', list: [] }
+{ _id: 21, name: 'Rosana Vales', list: [] }
+{ _id: 22, name: 'Margart Vitello', list: [] }
+{ _id: 29, name: 'Gwyneth Garling', list: [] }
+{ _id: 31, name: 'Tandra Meadows', list: [] }
+{ _id: 32, name: 'Gwen Honig', list: [] }
+{ _id: 38, name: 'Richelle Siemers', list: [] }
+{ _id: 39, name: 'Mariette Batdorf', list: [] }
+{ _id: 41, name: 'Aleida Elsass', list: [] }
+{ _id: 42, name: 'Kayce Kenyon', list: [] }
+{ _id: 44,
+  name: 'Houston Valenti',
+  list: [ { score: 98.06441387027331, type: 'exam' } ] }
+{ _id: 47,
+  name: 'Kurtis Jiles',
+  list: [ { score: 92.96916908741805, type: 'exam' } ] }
+{ _id: 48, name: 'Barbera Lippman', list: [] }
+{ _id: 49,
+  name: 'Dinah Sauve',
+  list: [ { score: 96.64807532447064, type: 'exam' } ] }
+Type "it" for more
+db.student.aggregate([
+  {
+    $match: {
+      "scores.score": {
+        $gte: 95
+      },
+      "scores.type": "exam"
+    }
+  },
+  {
+    $project: {
+      name: true,
+      list: {
+        $filter: {
+          input: "$scores",
+          as: "list",
+          cond: {
+            $and: [
+              {
+                $gt: [
+                  "$$list.score",
+                  90
+                ]
+              },
+              {
+                $eq: [
+                  "$$list.type",
+                  "exam"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+])
+{ _id: 7,
+  name: 'Salena Olmos',
+  list: [ { score: 90.37826509157176, type: 'exam' } ] }
+{ _id: 9,
+  name: 'Sanda Ryba',
+  list: [ { score: 97.00509953654694, type: 'exam' } ] }
+{ _id: 10, name: 'Denisha Cast', list: [] }
+{ _id: 13,
+  name: 'Jessika Dagenais',
+  list: [ { score: 90.47179954427436, type: 'exam' } ] }
+{ _id: 17, name: 'Fletcher Mcconnell', list: [] }
+{ _id: 21, name: 'Rosana Vales', list: [] }
+{ _id: 22, name: 'Margart Vitello', list: [] }
+{ _id: 31, name: 'Tandra Meadows', list: [] }
+{ _id: 32, name: 'Gwen Honig', list: [] }
+{ _id: 41, name: 'Aleida Elsass', list: [] }
+{ _id: 42, name: 'Kayce Kenyon', list: [] }
+{ _id: 44,
+  name: 'Houston Valenti',
+  list: [ { score: 98.06441387027331, type: 'exam' } ] }
+{ _id: 48, name: 'Barbera Lippman', list: [] }
+{ _id: 49,
+  name: 'Dinah Sauve',
+  list: [ { score: 96.64807532447064, type: 'exam' } ] }
+{ _id: 59,
+  name: 'Vinnie Auerbach',
+  list: [ { score: 95.45508256300009, type: 'exam' } ] }
+{ _id: 61, name: 'Grady Zemke', list: [] }
+{ _id: 64, name: 'Whitley Fears', list: [] }
+{ _id: 69, name: 'Cody Strouth', list: [] }
+{ _id: 70, name: 'Harriett Velarde', list: [] }
+{ _id: 88, name: 'Keesha Papadopoulos', list: [] }
+Type "it" for more
+db.student.aggregate([
+  {
+    $match: {
+      "scores.score": {
+        $gte: 95
+      },
+      "scores.type": "quiz"
+    }
+  },
+  {
+    $project: {
+      name: true,
+      list: {
+        $filter: {
+          input: "$scores",
+          as: "list",
+          cond: {
+            $and: [
+              {
+                $gt: [
+                  "$$list.score",
+                  95
+                ]
+              },
+              {
+                $eq: [
+                  "$$list.type",
+                  "quiz"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+])
+{ _id: 7, name: 'Salena Olmos', list: [] }
+{ _id: 9,
+  name: 'Sanda Ryba',
+  list: [ { score: 97.80449632538915, type: 'quiz' } ] }
+{ _id: 10,
+  name: 'Denisha Cast',
+  list: [ { score: 98.35723209418343, type: 'quiz' } ] }
+{ _id: 13, name: 'Jessika Dagenais', list: [] }
+{ _id: 17, name: 'Fletcher Mcconnell', list: [] }
+{ _id: 21,
+  name: 'Rosana Vales',
+  list: [ { score: 98.34164225207036, type: 'quiz' } ] }
+{ _id: 22, name: 'Margart Vitello', list: [] }
+{ _id: 31, name: 'Tandra Meadows', list: [] }
+{ _id: 32,
+  name: 'Gwen Honig',
+  list: [ { score: 99.45824441135635, type: 'quiz' } ] }
+{ _id: 41,
+  name: 'Aleida Elsass',
+  list: [ { score: 95.25243105389065, type: 'quiz' } ] }
+{ _id: 42, name: 'Kayce Kenyon', list: [] }
+{ _id: 44, name: 'Houston Valenti', list: [] }
+{ _id: 48,
+  name: 'Barbera Lippman',
+  list: [ { score: 97.42074160188449, type: 'quiz' } ] }
+{ _id: 49, name: 'Dinah Sauve', list: [] }
+{ _id: 59, name: 'Vinnie Auerbach', list: [] }
+{ _id: 61, name: 'Grady Zemke', list: [] }
+{ _id: 64, name: 'Whitley Fears', list: [] }
+{ _id: 69,
+  name: 'Cody Strouth',
+  list: [ { score: 99.80348240553108, type: 'quiz' } ] }
+{ _id: 70,
+  name: 'Harriett Velarde',
+  list: [ { score: 96.05228578589255, type: 'quiz' } ] }
+{ _id: 88, name: 'Keesha Papadopoulos', list: [] }
+Type "it" for more
+db.student.aggregate([
+  {
+    $match: {
+      "scores.score": {
+        $gte: 95
+      },
+      "scores.type": "homework"
+    }
+  },
+  {
+    $project: {
+      name: true,
+      list: {
+        $filter: {
+          input: "$scores",
+          as: "list",
+          cond: {
+            $and: [
+              {
+                $gt: [
+                  "$$list.score",
+                  95
+                ]
+              },
+              {
+                $eq: [
+                  "$$list.type",
+                  "homework"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+])
+{ _id: 7,
+  name: 'Salena Olmos',
+  list: [ { score: 96.52986171633331, type: 'homework' } ] }
+{ _id: 9, name: 'Sanda Ryba', list: [] }
+{ _id: 10, name: 'Denisha Cast', list: [] }
+{ _id: 13,
+  name: 'Jessika Dagenais',
+  list: [ { score: 95.17753772405909, type: 'homework' } ] }
+{ _id: 17,
+  name: 'Fletcher Mcconnell',
+  list: [ { score: 97.70116640402922, type: 'homework' } ] }
+{ _id: 21, name: 'Rosana Vales', list: [] }
+{ _id: 22,
+  name: 'Margart Vitello',
+  list: [ { score: 96.72520512117761, type: 'homework' } ] }
+{ _id: 31,
+  name: 'Tandra Meadows',
+  list: [ { score: 97.16831550665721, type: 'homework' } ] }
+{ _id: 32, name: 'Gwen Honig', list: [] }
+{ _id: 41, name: 'Aleida Elsass', list: [] }
+{ _id: 42,
+  name: 'Kayce Kenyon',
+  list: [ { score: 97.43587143437509, type: 'homework' } ] }
+{ _id: 44, name: 'Houston Valenti', list: [] }
+{ _id: 48, name: 'Barbera Lippman', list: [] }
+{ _id: 49, name: 'Dinah Sauve', list: [] }
+{ _id: 59, name: 'Vinnie Auerbach', list: [] }
+{ _id: 61,
+  name: 'Grady Zemke',
+  list: [ { score: 95.34139273570386, type: 'homework' } ] }
+{ _id: 64,
+  name: 'Whitley Fears',
+  list: [ { score: 96.57912148645883, type: 'homework' } ] }
+{ _id: 69,
+  name: 'Cody Strouth',
+  list: [ { score: 97.89665889862901, type: 'homework' } ] }
+{ _id: 70, name: 'Harriett Velarde', list: [] }
+{ _id: 88,
+  name: 'Keesha Papadopoulos',
+  list: [ { score: 98.46867828216399, type: 'homework' } ] }
+Type "it" for more
+var count = db.student.find({
+    scores : {
+        $elemMatch: {
+            type: "exam",
+            score: { $lt: 40 } 
+        } 
+    } 
+})
+ db.student.find({
+    scores : {
+        $elemMatch: {
+            type: "exam",
+            score: { $lt: 40 } 
+        } 
+    } 
+})
+{ _id: 0,
+  name: 'aimee Zank',
+  scores: 
+   [ { score: 1.463179736705023, type: 'exam' },
+     { score: 11.78273309957772, type: 'quiz' },
+     { score: 35.8740349954354, type: 'homework' } ] }
+{ _id: 6,
+  name: 'Jenette Flanders',
+  scores: 
+   [ { score: 37.32285459166097, type: 'exam' },
+     { score: 28.32634976913737, type: 'quiz' },
+     { score: 81.57115318686338, type: 'homework' } ] }
+{ _id: 8,
+  name: 'Daphne Zheng',
+  scores: 
+   [ { score: 22.13583712862635, type: 'exam' },
+     { score: 14.63969941335069, type: 'quiz' },
+     { score: 75.94123677556644, type: 'homework' } ] }
+{ _id: 14,
+  name: 'Alix Sherrill',
+  scores: 
+   [ { score: 25.15924151998215, type: 'exam' },
+     { score: 68.64484047692098, type: 'quiz' },
+     { score: 24.68462152686763, type: 'homework' } ] }
+{ _id: 16,
+  name: 'Dodie Staller',
+  scores: 
+   [ { score: 7.772386442858281, type: 'exam' },
+     { score: 31.84300235104542, type: 'quiz' },
+     { score: 80.52136407989194, type: 'homework' } ] }
+{ _id: 17,
+  name: 'Fletcher Mcconnell',
+  scores: 
+   [ { score: 39.41011069729274, type: 'exam' },
+     { score: 81.13270307809924, type: 'quiz' },
+     { score: 97.70116640402922, type: 'homework' } ] }
+{ _id: 26,
+  name: 'Jonie Raby',
+  scores: 
+   [ { score: 19.17861192576963, type: 'exam' },
+     { score: 76.3890359749654, type: 'quiz' },
+     { score: 44.39605672647002, type: 'homework' } ] }
+{ _id: 27,
+  name: 'Edgar Sarkis',
+  scores: 
+   [ { score: 8.606983261043888, type: 'exam' },
+     { score: 58.71180464203724, type: 'quiz' },
+     { score: 15.33726210596508, type: 'homework' } ] }
+{ _id: 28,
+  name: 'Laureen Salomone',
+  scores: 
+   [ { score: 3.677565278992456, type: 'exam' },
+     { score: 7.119462599229987, type: 'quiz' },
+     { score: 82.87308922617427, type: 'homework' } ] }
+{ _id: 30,
+  name: 'Kaila Deibler',
+  scores: 
+   [ { score: 15.89771199662455, type: 'exam' },
+     { score: 56.93965183412178, type: 'quiz' },
+     { score: 66.64493295066322, type: 'homework' } ] }
+{ _id: 31,
+  name: 'Tandra Meadows',
+  scores: 
+   [ { score: 24.90138146001744, type: 'exam' },
+     { score: 28.8266541837344, type: 'quiz' },
+     { score: 97.16831550665721, type: 'homework' } ] }
+{ _id: 34,
+  name: 'Carli Belvins',
+  scores: 
+   [ { score: 7.112266875518214, type: 'exam' },
+     { score: 67.734668378287, type: 'quiz' },
+     { score: 88.99855402666871, type: 'homework' } ] }
+{ _id: 35,
+  name: 'Synthia Labelle',
+  scores: 
+   [ { score: 27.22049103148209, type: 'exam' },
+     { score: 31.28760039265919, type: 'quiz' },
+     { score: 79.23285425688643, type: 'homework' } ] }
+{ _id: 38,
+  name: 'Richelle Siemers',
+  scores: 
+   [ { score: 34.64373397163318, type: 'exam' },
+     { score: 91.46799649446983, type: 'quiz' },
+     { score: 56.12615074082559, type: 'homework' } ] }
+{ _id: 39,
+  name: 'Mariette Batdorf',
+  scores: 
+   [ { score: 0.04381116979284005, type: 'exam' },
+     { score: 90.25774974259562, type: 'quiz' },
+     { score: 65.88612319625227, type: 'homework' } ] }
+{ _id: 41,
+  name: 'Aleida Elsass',
+  scores: 
+   [ { score: 28.02518041693717, type: 'exam' },
+     { score: 95.25243105389065, type: 'quiz' },
+     { score: 68.05980405338909, type: 'homework' } ] }
+{ _id: 43,
+  name: 'Ernestine Macfarland',
+  scores: 
+   [ { score: 15.29147856258362, type: 'exam' },
+     { score: 78.40698797039501, type: 'quiz' },
+     { score: 31.03031764716336, type: 'homework' } ] }
+{ _id: 46,
+  name: 'Lady Lefevers',
+  scores: 
+   [ { score: 16.89237820123443, type: 'exam' },
+     { score: 65.97505910406456, type: 'quiz' },
+     { score: 48.42527123437286, type: 'homework' } ] }
+{ _id: 48,
+  name: 'Barbera Lippman',
+  scores: 
+   [ { score: 35.43490750932609, type: 'exam' },
+     { score: 97.42074160188449, type: 'quiz' },
+     { score: 74.1092960902528, type: 'homework' } ] }
+{ _id: 50,
+  name: 'Alica Pasley',
+  scores: 
+   [ { score: 19.38544736721771, type: 'exam' },
+     { score: 88.70752686639557, type: 'quiz' },
+     { score: 60.62755218680213, type: 'homework' } ] }
+Type "it" for more
+db.student.aggregate([
+    {$unwind:"$scores"},
+    {$match: {"scores.type": "exam"}},
+    {$group: {
+        _id: null,
+        totalCount: {$sum:1},
+        failCount: {$sum: { "$cond": [{ "$lt": ["$scores.score", 40 ] }, 1, 0 ] }}}},
+    {$project: {
+        _id : 0,
+        totalCount : 1,
+        failCount : 1,
+        failPercent: {
+            $multiply: [ { $divide: ["$failCount", "$totalCount"] }, 100 ]
+        }
+    }}
+])
+{ totalCount: 200, failCount: 81, failPercent: 40.5 }
+db.student.updateMany({"scores":{($lte:40)},{$set:{"type":"fail"}}})
+SyntaxError: Unexpected token (1:33)
+
+> 1 | db.student.updateMany({"scores":{($lte:40)},{$set:{"type":"fail"}}})
+    |                                  ^
+db.student.updateMany({"scores":{$lte:40}},{$set:{"type":"fail"}})
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 0 }
+db.student.aggregate([
+    {
+        "$project": {
+            "exam_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "exam"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "exam_fail": { "$lt": ["$exam_scores.score", 40 ] }
+        }
+    },
+    {
+        "$group": {
+            "_id": null,
+            "total": { "$sum": 1 },
+            "fail_count": { "$sum": { "$cond": ["$exam_fail", 1, 0 ] } }
+        }
+    },
+    {
+        "$project": {
+            "percentage_exam_fail": {
+                "$multiply": [
+                    { "$divide": ["$fail_count", "$total"] },
+                    100
+                ]
+            }
+        }
+    }
+])
+{ _id: null, percentage_exam_fail: 100 }
+db.student.aggregate([
+    {
+        "$project": {
+            "exam_scores": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "exam"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "exam_fail": { "$lt": ["$exam_scores.score", 40 ] }
+        }
+    }       
+])
+{ _id: 0, exam_fail: true }
+{ _id: 1, exam_fail: false }
+{ _id: 2, exam_fail: false }
+{ _id: 3, exam_fail: false }
+{ _id: 4, exam_fail: false }
+{ _id: 5, exam_fail: false }
+{ _id: 6, exam_fail: true }
+{ _id: 7, exam_fail: false }
+{ _id: 8, exam_fail: true }
+{ _id: 9, exam_fail: false }
+{ _id: 10, exam_fail: false }
+{ _id: 11, exam_fail: false }
+{ _id: 12, exam_fail: false }
+{ _id: 13, exam_fail: false }
+{ _id: 14, exam_fail: true }
+{ _id: 15, exam_fail: false }
+{ _id: 16, exam_fail: true }
+{ _id: 17, exam_fail: true }
+{ _id: 18, exam_fail: false }
+{ _id: 19, exam_fail: false }
+Type "it" for more
+db.student.aggregate([
+    {
+        "$project": {
+            "quiz_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "quiz"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "quiz_fail": { "$lt": ["$quiz_scores.score", 40 ] }
+        }
+    }       
+])
+{ _id: 0, quiz_fail: true }
+{ _id: 1, quiz_fail: true }
+{ _id: 2, quiz_fail: true }
+{ _id: 3, quiz_fail: true }
+{ _id: 4, quiz_fail: true }
+{ _id: 5, quiz_fail: true }
+{ _id: 6, quiz_fail: true }
+{ _id: 7, quiz_fail: true }
+{ _id: 8, quiz_fail: true }
+{ _id: 9, quiz_fail: true }
+{ _id: 10, quiz_fail: true }
+{ _id: 11, quiz_fail: true }
+{ _id: 12, quiz_fail: true }
+{ _id: 13, quiz_fail: true }
+{ _id: 14, quiz_fail: true }
+{ _id: 15, quiz_fail: true }
+{ _id: 16, quiz_fail: true }
+{ _id: 17, quiz_fail: true }
+{ _id: 18, quiz_fail: true }
+{ _id: 19, quiz_fail: true }
+Type "it" for more
+db.student.aggregate([
+    {
+        "$project": {
+            "exam_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "exam"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "exam_fail": { "$lt": ["$exam_score.score", 40 ] }
+        }
+    },
+    {
+        "$group": {
+            "_id": null,
+            "total": { "$sum": 1 },
+            "fail_count": { "$sum": { "$cond": ["$exam_fail", 1, 0 ] } }
+        }
+    }
+])
+{ _id: null, total: 200, fail_count: 81 }
+db.student.aggregate([
+    {
+        "$project": {
+            "exam_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "exam"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "exam_fail": { "$lt": ["$exam_score.score", 40 ] }
+        }
+    },
+    {
+        "$group": {
+            "_id": null,
+            "total": { "$sum": 1 },
+            "fail_count": { "$sum": { "$cond": ["$exam_fail", 1, 0 ] } }
+        }
+    }
+])
+{ _id: null, total: 200, fail_count: 81 }
+db.student.aggregate([
+    {
+        "$project": {
+            "quiz_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "quiz"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "quiz_fail": { "$lt": ["$quiz_score.score", 40 ] }
+        }
+    },
+    {
+        "$group": {
+            "_id": null,
+            "total": { "$sum": 1 },
+            "fail_count": { "$sum": { "$cond": ["$quiz_fail", 1, 0 ] } }
+        }
+    }
+])
+{ _id: null, total: 200, fail_count: 86 }
+db.student.aggregate([
+    {
+        "$project": {
+            "homework_score": {
+                "$arrayElemAt": [
+                    {
+                        "$filter": {
+                            "input": "$scores",
+                            "as": "res",
+                            "cond": {
+                                "$eq": ["$$res.type", "homework"]
+                            }
+                        }
+                    },
+                    0
+                ]
+            }
+        }
+    },
+    {
+        "$project": {
+            "homework_fail": { "$lt": ["$homework_score.score", 40 ] }
+        }
+    },
+    {
+        "$group": {
+            "_id": null,
+            "total": { "$sum": 1 },
+            "fail_count": { "$sum": { "$cond": ["$homework_fail", 1, 0 ] } }
+        }
+    }
+])
+{ _id: null, total: 200, fail_count: 29 }
+db.student.aggregate(
+   [
+     {
+       $group:
+         {
+           _id: "$name",
+           avgScore: { $avg: { $multiply: [ "$score", "$exam" ] } },
+           avgExam: { $avg: "$exam" }
+         }
+     }
+   ]
+)
+{ _id: 'Meagan Oakes', avgScore: null, avgExam: null }
+{ _id: 'Wilburn Spiess', avgScore: null, avgExam: null }
+{ _id: 'Tambra Mercure', avgScore: null, avgExam: null }
+{ _id: 'Cody Strouth', avgScore: null, avgExam: null }
+{ _id: 'Margart Vitello', avgScore: null, avgExam: null }
+{ _id: 'Grady Zemke', avgScore: null, avgExam: null }
+{ _id: 'Adrien Renda', avgScore: null, avgExam: null }
+{ _id: 'Cassi Heal', avgScore: null, avgExam: null }
+{ _id: 'Linnie Weigel', avgScore: null, avgExam: null }
+{ _id: 'Beckie Millington', avgScore: null, avgExam: null }
+{ _id: 'Flora Duell', avgScore: null, avgExam: null }
+{ _id: 'Milan Mcgavock', avgScore: null, avgExam: null }
+{ _id: 'Houston Valenti', avgScore: null, avgExam: null }
+{ _id: 'Ernestine Macfarland', avgScore: null, avgExam: null }
+{ _id: 'Merissa Mann', avgScore: null, avgExam: null }
+{ _id: 'Mariela Sherer', avgScore: null, avgExam: null }
+{ _id: 'Richelle Siemers', avgScore: null, avgExam: null }
+{ _id: 'Carli Belvins', avgScore: null, avgExam: null }
+{ _id: 'Lady Lefevers', avgScore: null, avgExam: null }
+{ _id: 'Gwyneth Garling', avgScore: null, avgExam: null }
+Type "it" for more
+use santosh
+'switched to db santosh'
+db.santosh.distinct("name")
+[]
+db.data.distinct("name")
+[ 'akshay', 'anil', 'anisha', 'manisha', 'priya', 'santosh' ]
+db.data.distinct("mob_no")
+[
+  7019458321,
+  7849581058,
+  7849585610,
+  7869587561,
+  8431607010,
+  8431704456
+]
+use students
+'switched to db students'
+db.student.distinct("exam")
+[]
+db.student.distinct("type")
+[]
+db.student.distinct("score")
+[]
+use santosh
+'switched to db santosh'
